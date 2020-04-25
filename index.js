@@ -8,7 +8,7 @@ const { addUser, removeUser, getUser, getAllUsers } =  require('./users.js');
 const PORT = process.env.PORT || 12300
 
 
-const defaultMap = require('../client/src/defaultMap.json');
+const defaultMap = require('./defaultMap.json');
 const decayTime = 20000;
 
 const router = require('./router');
